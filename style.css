@@ -1,0 +1,373 @@
+
+:root{
+    --gold:#ffb338;
+    --light-shadow:#77571d;
+    --dark-shadow:#3e2904;
+}
+body
+{
+    box-sizing:border-box;
+    background-image: url(../ikw/images/bg20.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    /* background-size: 1400px 720px; */
+   
+
+}
+
+img{
+    margin-left: 290px;
+    margin-top: 120px;
+    width: 360px;
+}
+/*============================================================================================================================== */
+.malini 
+{
+    position: absolute;
+    top:55px;
+    left:700px;    
+    opacity:0.6; 
+} 
+.mal  p
+{
+    position: relative;
+    top:-20px;
+    height: 180px;
+    width:650px;   
+}
+
+.mal h1
+{    
+    position:relative;
+    top:30px;
+    left:30px;
+    color: white;
+    font: weight 400px;;
+    font-size: 60px;
+    text-decoration:line-through;
+    text-decoration-color: #027bfc;
+    letter-spacing:4px;
+    opacity:0;
+}
+
+.mal p
+{
+    position:relative;
+    top:-40px;
+    border-radius:20%;
+    text-align: left;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 43px ;
+    font-weight: 900px;
+    background:linear-gradient(to right,#462523 0,#cb9b51 22%,#f6e27a 45%,#f6f2c0 50%
+    ,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+    background-size: 200% auto;
+    background-clip:text ; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s linear infinite;
+ } 
+  @keyframes animate 
+ {
+    to
+    {
+        background-position: 200% center;
+    }
+    
+ } 
+ 
+
+/*=============================================================================================================================================================== */
+#kgf
+img
+{
+    position:absolute;
+    right: 150px;
+    top:400px;
+    opacity:1;
+    height:90px;
+    width:250px;
+    border-radius: 30px;
+    box-shadow: 0 3px 10px 0 #1A1932 inset,0 3px 10px 0 #516ba7,
+              0 3px 10px 0  #0D1934 inset,0 3px 10px 0 #0D1934;
+       
+}
+
+ body #vikram
+{
+   
+    text-transform:capitalize;
+    position:absolute;
+    top:450px;
+    left:965px;
+    opacity:0.5;
+}
+
+body #vikram  button
+{
+    text-align: right;
+    letter-spacing: 4px;
+    border: 5px solid var(--gold);
+    padding-top: 6px;
+    font-weight: 400;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color:#0D1934;
+    font-size: 30px;
+    color:var(--light-shadow);
+    cursor:pointer;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+    
+body #vikram button:hover
+{   position: relative;
+    empty-cells: show;
+    opacity:1;
+    box-shadow: 0 3px 10px 0 #15f4ee inset,0 3px 10px 0 #15f4ee,
+              0 3px 10px 0 #15f4ee inset,0 3px 10px 0 #15f4ee;
+   text-shadow: 0 0 5px #15f4ee inset,0 0 5px #15f4ee;
+
+}
+
+.mass
+{
+margin-top:-470px;
+margin-left:240px;
+padding:0;
+}
+.sakthimalini{
+    background-color:radial-gradient(#272727,#1b1b1b);
+    display: grid;
+    grid-template-areas:"overlap";
+    place-content: center;
+    text-transform: uppercase;
+    height:10vh;
+}
+.sakthimalini>div {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #363833;
+    font-family:"Poppins",sans-serif;
+    font-weight: 900;
+    font-size:clamp(1em,6vw,5rem);
+    grid-area:overlap;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 4px transparent;
+}
+div .fg{
+    background-image: repeating-linear-gradient(105deg, var(--gold)0%, var(--dark-shadow)5%, var(--gold)12%);
+    color: transparent;
+    filter: drop-shadow(2px 6px 6px black);
+    transform: scaleY(1.05);
+    transform-origin:top;
+}
+div .bg{
+    background-image: repeating-linear-gradient(105deg, var(--gold)0%, var(--light-shadow)23%, var(--gold)31%);
+    color: #0E0E19;
+    transform:scale(1);
+}
+
+
+ 
+ 
+ .sidebar
+{
+    position: fixed;
+    top: 0px;
+    left:0px;
+ }
+ .sidebar
+ {
+    /* padding: 6px 14px; */
+    width: 240px;
+    height: 100%;
+    
+ }
+ .sidebar 
+ {
+    background-image: linear-gradient(#0D1934,#0D1934);
+    border-radius:1% ;
+    border-top-left-radius:3%;
+    transition: all 0.8 ease;
+ }
+ .sidebar .fdd{
+    position: relative;
+    top:25px;
+    left:56px;
+    color: #FFFFFF;
+    font-size: 38px;
+    transition: all 0.8 ease;
+ }
+
+ .sidebar.active{
+    margin-top: 8px;
+    height:590px;
+    width:76px;
+    border-radius:30px;
+    border:1px solid white;
+    transition: all 0.8 ease;
+    
+    
+ }
+ .sidebar.active .fdd{
+    position: relative;
+    opacity:0;
+ }
+ .sidebar .nav_list
+ {
+    padding-top:6px;
+    padding-bottom:6px;
+    position: relative;
+    top:50px;
+    width: cover;
+    margin-bottom:30px;
+    list-style: none;
+    background-image: #0D1427;
+    transition: all 0.6s ease;
+    
+
+}
+.sidebar.sidebar.active .nav_list{
+    position: relative;
+    top:0px;
+    width:7px;
+    height:48px;
+    border-radius: 50%;
+    border:1px solid #FFFFFF ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right:6px;
+    margin-left:10px;
+    padding-bottom:2px;
+    transition: all 0.8 ease;
+}
+.sidebar .nav_list:hover
+{
+    box-shadow:0 1px 4px 0 #FFFFFF inset,0 1px 4px 0 #FFFFFF,
+    0 1px 4px 0 #FFFFFF inset,0 1px 4px 0 #FFFFFF; ;
+}
+ 
+ .sidebar .nav_list li a h
+ {
+    
+  position: relative;
+  top:-10px;
+  color:#FFFFFF;
+  height:40px;
+  padding-left:40px;
+  margin: 20px;
+  font-weight: 800px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  opacity:1; 
+  pointer-events: none;
+  transition: all 0.8 ease;
+  
+ }
+ .sidebar.active .nav_list li a h{
+    position: relative;
+    opacity:0;
+
+ }
+ 
+ .sidebar .nav_list .icon ion-icon
+ {
+    position: relative;
+    left: 0px;
+    height:40px;
+    width: 34px;
+    display: inline-flexbox;
+    justify-content: left;
+    align-items: left;
+    margin-right: -25px;
+    background-image:#0D1427;
+    border-radius: 50%;
+    color:white;
+    margin-left:-30px;
+    font-size:28px;
+    transition: all 0.8 ease;
+ 
+}
+.sidebar ul li .tooltip{
+    position: absolute;
+    left:82px;
+    top:50px;
+    transform:translateY(-50%);
+    border-radius: 6%;
+    height:35px;
+    width:122px;
+    background: #FFFFFF;
+    border-radius:5%;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2);
+    line-height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    letter-spacing:2px;
+    border-radius:30px;
+    border:3px solid #06599b;
+    color:#0664C8;
+    transition: 0s;
+    opacity:0;
+    pointer-events: none;
+}
+.sidebar ul li .tooltip.pip{
+    width:262px;
+}
+.sidebar ul li:hover .tooltip{
+background-color: none;    
+    opacity: 0;
+}    
+.sidebar.active ul li:hover .tooltip{
+    transition:all 0.6s ease;
+    top:50%;
+    opacity: 1;
+}
+.sidebar .menubar
+ {
+    position: absolute;
+    top:28px;
+    left:0px;
+    transition: all 0.8 ease;
+ }
+ .sidebar.active .menubar {
+    position: relative;
+    top:-20px;
+    left:10px;
+    transition: all 0.8 ease;
+ }
+body .sidebar .menubar button 
+ {
+    position: relative;
+    top:-1px;
+    height: 38px;
+    width: 48px;
+    color:#0664C8;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 39px;
+    background-color: white;
+    border-radius: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0.1px solid gray;
+    
+ }
+ .sidebar .menubar button :hover
+  {
+    border-radius:37%;
+    color: #027bfc;
+    
+    border: 2px solid rgb(100,100,100,);
+    text-shadow: 8px 8px 30px #027bfc inset,8px 8px 10px #027bfc inset,
+                 8px 8px 30px #027bfc inset,8px 8px 10px #027bfc;
+    
+ }
